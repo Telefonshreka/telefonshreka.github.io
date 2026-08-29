@@ -1,49 +1,55 @@
 <!doctype html>
-<html>
+<html lang="pl">
 <head>
-<meta charset="utf-8">
-	<html lang="pl">
-<title>Telefonshreka</title>
-		<meta name="google-site-verification" content="JQZcljRLp9lta0lEACzKFuKIZc6up_MF9G266NEqb-0" />
+    <meta charset="utf-8">
+    <title>Telefonshreka</title>
+    <meta name="google-site-verification" content="JQZcljRLp9lta0lEACzKFuKIZc6up_MF9G266NEqb-0" />
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #7FFC4C;
+            background-size: cover;   
+            background-position: center;   
+            background-repeat: no-repeat;
+            font-family: Consolas, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: white;
+            margin-top: 20px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        button {
+            width: 200px;
+            font-family: Consolas, monospace;
+            font-size: 24px;
+            background-color: greenyellow;
+            border: solid 2px white;
+            cursor: pointer;
+            padding: 5px 0;
+        }
+        button:hover {
+            background-color: #7FFC4C;
+        }
+    </style>
 </head>
-
-<body background="https://lh3.google.com/u/0/d/1nvtE8zO0IOiK93ef_HBo4-ErHUcYQhfk=w1912-h954-iv1?auditContext=forDisplay">
-	<center><h1 style="color:white; font-family: consolas;">Telefonshreka</h1></center>
-	<p>
-	<a href="zdjecia.html"><button>Zdjęcia</button><a/>
-	</p>
-	<p>
-		<A href="opis.html"><button>Opis</button></A>
-	</p>
-	<p>
-		<a href="socjalmedia.html"><button>Socjalmedia</button></a>
-	</p>
-	<p>
-		<button>Wiadomości</button>
-	</p>
-	<p>
-		<button>Phonevlog</button>
-	</p>
-	<p>
-		<a href="filmy.html"><button>Filmy</button></a>
-	</p>
-		<button>Lostmedia</button>
-	<style>
-		button{
-			width: 200px;
-			font-family: Consolas;
-			font-size:24px;
-			background-color:greenyellow;
-			border: solid 2px white;
-		}
-		body{
-			  margin: 0;
-  height: 100vh;
-			  background-size: cover;   
-  background-position: center;   
-  background-repeat: no-repeat;  
-		}
-	</style>
+<body>
+    <h1>Telefonshreka</h1>
+    <nav class="menu">
+        <a href="zdjecia.html"><button>Zdjęcia</button></a>
+        <a href="opis.html"><button>Opis</button></a>
+        <a href="socjalmedia.html"><button>Socjalmedia</button></a>
+        <a href="#"><button>Wiadomości</button></a>
+        <a href="#"><button>Phonevlog</button></a>
+        <a href="filmy.html"><button>Filmy</button></a>
+        <a href="#"><button>Lostmedia</button></a>
+    </nav>
 </body>
 </html>
-
